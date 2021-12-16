@@ -1,0 +1,52 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+#sectionBlock{
+    width: 100%;
+}
+
+#sectionBlock article{
+  width: 90% ;
+  margin: 0 auto;
+  height: 70px;
+}
+#logoBlock img{
+    width:170px;
+   flex-basis: 45%;
+   display: flex;
+   justify-content: flex-start;
+}
+
+#sectionBlock article div{
+display: flex;
+}
+#menuBlock{
+    flex-basis: 45%;
+    display: flex;
+    justify-content: flex-end;
+    margin:auto;
+}
+#menuBlock ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+}
+#menuBlock ul li{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#menuBlock ul li a{
+    text-decoration: none;
+    color: aliceblue;
+  padding: 8px 22px;
+  border-radius:1px ;
+  
+}
+#menuBlock ul li:nth-child(1){
+    margin: 0 30px;
+    border: 1px solid #fff;
+}
+#menuBlock ul li:nth-child(2){
+    background-color: red;
+    margin-right: -210px;
+}
